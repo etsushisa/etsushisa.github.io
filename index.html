@@ -7,7 +7,7 @@
 
 	<h1>Hello World</h1>
 
-	<a href="intent://launch?referer=web#Intent;scheme=mercariapp;package=com.mercariapp.mercari.dev;S.browser_fallback_url=mercariapp://;end">
+	<a href="intent://app/launch?referer=web#Intent;scheme=mercariapp;package=com.mercariapp.mercari.dev;S.browser_fallback_url=mercariapp://;end">
 	<!-- <a href="intent://app/launch#Intent;scheme=mercariapp;package=com.mercariapp.mercari.dev;action=android.intent.action.VIEW;end"> -->
 		Link
 	</a>
@@ -15,9 +15,9 @@
 	<!-- javascript -->
 	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
 	<script type="text/javascript">
-		// window.onload = function() {
-		// 	location.href="intent:#Intent;scheme=mercariapp;package=com.mercariapp.mercari.dev;end"
-		// }
+		window.onload = function() {
+			location.href="intent://app/launch?referer=web#Intent;scheme=mercariapp;package=com.mercariapp.mercari.dev;S.browser_fallback_url=mercariapp://;end";
+		}
 </script>
 </body>
 </html>
